@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# This content is released under the MIT License.
 
 import pygtk
 pygtk.require('2.0')
@@ -55,13 +56,13 @@ class dualScreenWindow :
 		self.translate_button = gtk.Button()
 		# And use some icons (cf ReadeMe for License)
 		disconnect_image = gtk.Image()
-		disconnect_image.set_from_file("/usr/share/dsmanager/laptop.png")
+		disconnect_image.set_from_file("/usr/share/dual-screen-manager/laptop.png")
 		duplicate_image = gtk.Image()
-		duplicate_image.set_from_file("/usr/share/dsmanager/duplicate.png")
+		duplicate_image.set_from_file("/usr/share/dual-screen-manager/duplicate.png")
 		extend_image = gtk.Image()
-		extend_image.set_from_file("/usr/share/dsmanager/extend.png")
+		extend_image.set_from_file("/usr/share/dual-screen-manager/extend.png")
 		translate_image = gtk.Image()
-		translate_image.set_from_file("/usr/share/dsmanager/desktop.png")
+		translate_image.set_from_file("/usr/share/dual-screen-manager/desktop.png")
 		# To be understandable, we need a Label
 		disconnect_label = gtk.Label("Use primary screen only")
 		duplicate_label = gtk.Label("Duplicate screens")
@@ -113,7 +114,7 @@ class dualScreenWindow :
 		self.duplicate_button.show()
 		self.extend_button.show()
 		self.translate_button.show()
-	
+
 	# Called after create_content and display everything
 	def show_window(self):
 		self.packing_box.show()
