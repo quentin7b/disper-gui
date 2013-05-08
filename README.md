@@ -1,4 +1,4 @@
-dual-screen-manager
+disper-gui
 ===================
 
 A simple GUI for disper
