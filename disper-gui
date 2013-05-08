@@ -57,7 +57,7 @@ class dualScreenWindow :
 		self.translate_button = gtk.Button()
 		# And use some icons (cf ReadeMe for License)
 		disconnect_image = gtk.Image()
-		disconnect_image.set_from_file("/usr/share/dual-screen-manager/laptop.png")
+		disconnect_image.set_from_file("/usr/share/disper-gui/laptop.png")
 		duplicate_image = gtk.Image()
 		duplicate_image.set_from_file("/usr/share/disper-gui/duplicate.png")
 		extend_image = gtk.Image()
